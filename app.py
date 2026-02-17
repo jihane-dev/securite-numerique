@@ -9,7 +9,7 @@ from streamlit_extras.let_it_rain import rain
 st.set_page_config(page_title="Sécurité numérique", page_icon="🪪", layout="wide")
 
 # === LOAD LOGO ===
-logo = Image.open("assets/hack.JPG")
+logo = Image.open("assets/hack.jpg")
 
 # === LOAD CSS ===
 st.markdown("""
@@ -176,3 +176,4 @@ st.markdown("""
 
 © all rights reserved - 2026
 """, unsafe_allow_html=True)
+
